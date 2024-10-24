@@ -10,9 +10,8 @@ public class Javagit {
         final int HIDEG_HATAR = 10;
         int fok = 7;
         boolean hidegVan = fok < HIDEG_HATAR;
-        String viszek = "Viszek kabátot";
-        String nemViszek = "Nem viszek kabátot";
-        String eredmeny = hidegVan ? viszek : nemViszek;
+        String eredmeny = "Viszek kabátot";
+        eredmeny = hidegVan ? eredmeny : "nem " + eredmeny;
         
         System.out.println(eredmeny);
     }
