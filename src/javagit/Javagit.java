@@ -10,12 +10,11 @@ public class Javagit {
         final int HIDEG_HATAR = 10;
         int fok = 7;
         boolean hidegVan = fok < HIDEG_HATAR;
-        String eredmeny = "";
+        String eredmeny = "Nem viszek kabátot";
         if(hidegVan){
             eredmeny = "Viszek kabátot";
-        }else{
-            eredmeny = "Nem viszek kabátot";
         }
+        
         System.out.println(eredmeny);
     }
     
